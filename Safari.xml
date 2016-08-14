@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Safari">
+<parameter name="Browser" value="Safari"></parameter>
+	<test name="Test1">
+		<classes>
+			<class name="testSuite1.TestClass1"></class>
+		</classes>
+	</test>
+</suite>

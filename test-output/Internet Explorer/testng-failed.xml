@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Internet Explorer]">
+  <parameter name="Browser" value="IE"/>
+  <test name="Test1">
+    <classes>
+      <class name="testSuite1.TestClass1"/>
+    </classes>
+  </test> <!-- Test1 -->
+  <test name="Test1(failed)">
+    <classes>
+      <class name="testSuite1.TestClass1">
+        <methods>
+          <include name="driverMethod"/>
+          <include name="LoginToFacebook"/>
+          <include name="quitBrowser"/>
+        </methods>
+      </class> <!-- testSuite1.TestClass1 -->
+    </classes>
+  </test> <!-- Test1(failed) -->
+</suite> <!-- Failed suite [Internet Explorer] -->
